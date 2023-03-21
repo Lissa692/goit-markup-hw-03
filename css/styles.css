@@ -12,6 +12,23 @@
 --white-background:#FFFFFF;
 --modal-background:#FCFCFC;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;}
+
+ul {
+    margin: 0;
+    padding-left: 0;}
+address {
+    font-style: normal;}
+
+img {
+    display: block;}
 /*____________________BODY____________ */
 body {
     font-family:"Roboto", sans-serif;
@@ -21,15 +38,29 @@ body {
 .link {
     text-decoration: none;
 }
+ .container{
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+ }
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .list {
     list-style: none;
+
 }
-.header {}
-
-
-
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
+}
 .header-navigation {}
+
 /*____________________LOGO____________ */
 .header-logo {
     font-family: "Raleway",sans-serif;
@@ -82,6 +113,8 @@ body {
 /*____________________MAIN SECTION_1____________ */
 .first-section {
     background-color:var(--dark);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .first-title {
@@ -106,7 +139,8 @@ body {
 .first-btn:hover {background-color: var(--pressed-state);
 }
 /*____________________MAIN SECTION_2____________ */
-.second-section {}
+.second-section {
+}
 
 .second-section-link {}
 
@@ -133,7 +167,9 @@ body {
     
 /*____________________MAIN SECTION_4____________ */
 
-.fourth-section { background-color: var(--light);}
+.fourth-section {
+     background-color: var(--light);
+}
 
 .fourth-section-title {
     font-size: 36px;
@@ -150,17 +186,32 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--dark)}
+    color: var(--dark);
+    margin-top: 32px;
+    margin-bottom: 8px;
+
+}
     .fourth-section-text{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--text);}
+        color: var(--text);
+        margin-bottom: 32px;
+    }
+        
 
 /*____________________PORTFOLIO SECTION____________ */
-.content {}
+.portfolio-section{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+.content {
+    margin-bottom: 72px;
+    
+}
 
-.content-list {}
+.content-list {
+}
 /*____________________button____________ */
 .list-btn {
     font-family: inherit;
@@ -177,24 +228,33 @@ body {
 .list-btn:hover{color:var(--white-background); background-color:var(--pressed-state);}
 /*____________________aside____________ */
 .aside {}
-.aside-list {}
+.aside-list {
+    margin-bottom: 48px;
+}
 .aside-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--dark);}
+    color: var(--dark);
+    margin-top: 32px;
+    margin-bottom: 8px;;
+}
 .aside-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
      color: var(--text);
+     margin-bottom: 32px;
 }
 
 /*____________________FOOTER____________ */
 
         .footer {
             background-color: var(--dark);
+            padding-top: 100px;
+            padding-bottom: 100px;
+            
         }
     
         .footer-logo {
