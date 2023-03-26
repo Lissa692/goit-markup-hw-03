@@ -306,7 +306,7 @@ body {
     background-color: var(--light);
     color: var(--primary-brand);}
     
-    .list-btn:focus,
+.list-btn:focus,
 .list-btn:hover{color:var(--white-background); background-color:var(--pressed-state);}
 /*____________________aside____________ */
 
@@ -356,8 +356,8 @@ body {
             text-transform: uppercase;
             color: var(--primary-brand);}
             
-            .footer-logo-part {
-                color: var(--light);}
+        .footer-logo-part {
+           color: var(--light);}
                 
                 
         .footer-text {
